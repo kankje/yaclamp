@@ -1,0 +1,32 @@
+{
+  "name": "yaclamp",
+  "version": "1.0.0",
+  "description": "Yet another multi-line clamping package",
+  "main": "lib/index.js",
+  "repository": "https://github.com/kankje/yaclamp",
+  "author": "Jere Kankaanranta <jere@kankje.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src -d lib",
+    "prepublish": "yarn build",
+    "lint": "eslint src test --ext .js",
+    "flow": "flow",
+    "test": "jest"
+  },
+  "dependencies": {
+    "canvas-prebuilt": "^1.6.5-prerelease.1",
+    "jquery": "^3.3.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.2.1",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-flow": "^6.23.0",
+    "eslint": "^4.16.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-flowtype": "^2.42.0",
+    "eslint-plugin-import": "^2.8.0",
+    "flow-bin": "^0.64.0",
+    "jest": "^22.1.4"
+  }
+}

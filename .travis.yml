@@ -1,0 +1,14 @@
+language: node_js
+
+node_js:
+  - 9
+
+install:
+  - yarn
+
+script:
+  - yarn test
+  - yarn lint
+  - yarn flow
+
+cache: yarn

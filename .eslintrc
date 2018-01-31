@@ -1,0 +1,19 @@
+{
+  "extends": ["airbnb-base", "plugin:flowtype/recommended"],
+  "parser": "babel-eslint",
+  "plugins": ["flowtype"],
+  "settings": {
+    "flowtype": {
+      "onlyFilesWithFlowAnnotation": true
+    }
+  },
+  "env": {
+    "browser": true,
+    "jest": true
+  },
+  "rules": {
+    "func-names": 0,
+    "no-plusplus": [2, { "allowForLoopAfterthoughts": true }],
+    "flowtype/require-return-type": [2, "always", { "excludeArrowFunctions": "expressionsOnly", "annotateUndefined": "always" }]
+  }
+}
