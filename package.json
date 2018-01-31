@@ -1,6 +1,6 @@
 {
   "name": "yaclamp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Yet another multi-line clamping package",
   "main": "lib/index.js",
   "repository": "https://github.com/kankje/yaclamp",
